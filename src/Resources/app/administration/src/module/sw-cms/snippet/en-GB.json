@@ -29,7 +29,8 @@
         },
         "blocks": {
             "delightBlock": {
-                "label": "Advanced Slider Element"
+                "label": "Image slider custom",
+                "label-images": "Image slider text category"
             }
         }
     }

@@ -7,18 +7,18 @@
                     <div class="wrapper-image-text" v-for="(txt, index) in imgText">
                         <div class="sw-cms-el-text" v-if="index === counter">
                             <sw-text-editor
-                                @input="onInput"
-                                @blur="onInput"
-                                v-model="element.config.sliderItems.value[index].content"
-                                isInlineEdit="true"
+                                    @input="onInput"
+                                    @blur="onInput"
+                                    v-model="element.config.sliderItems.value[index].content"
+                                    isInlineEdit="true"
                             >
                             </sw-text-editor>
                         </div>
                     </div>
                 </div>
-                <div class="wrapper-image-text default-preview custom-slider-perview" v-else>
+                <div class="wrapper-image-text default-preview" v-else>
                     <div class="txt sw-text-editor">
-                        <img style="max-width: 100%;" :src="'/doger/static/img/cms/bgc-slider.jpg' | asset">
+                        <img style="max-width: 100%;" :src="'/doger/static/img/cms/dog-text.jpg' | asset">
                     </div>
                 </div>
             </div>

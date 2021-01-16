@@ -4,7 +4,7 @@ import './preview';
 Shopware.Service('cmsService').registerCmsBlock({
     name: 'slider-image-text',
     label: 'sw-cms.blocks.delightBlock.label',
-    category: 'text-image',
+    category: 'image',
     component: 'sw-cms-block-slider-image-text',
     previewComponent: 'sw-cms-preview-slider-image-text',
     defaultConfig: {

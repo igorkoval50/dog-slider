@@ -29,7 +29,8 @@
         },
         "blocks": {
             "delightBlock": {
-                "label": "individuelles Sliderbild"
+                "label": "Bildschieberegler benutzerdefiniert",
+                "label-images": "Bildschieberegler-Textkategorie"
             }
         }
     }

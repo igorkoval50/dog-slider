@@ -1,0 +1,73 @@
+{% block element_images_slider %}
+    {%  set sliderConfig = element.fieldConfig.elements %}
+    <style>
+        .swiper-containers {
+            width: 100%;
+            height: 100%;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+        .itDelight-custom-slider img {
+            max-width: 100%;
+            max-height: 100%;
+            height: 500px;
+            width: 100%;
+            object-fit: cover;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        .itDelight-custom-slider .image-slider-content {
+            position: relative;
+            height: 500px;
+            width: 100%;
+        }
+        .itDelight-custom-slider .content {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+
+    <div class="swiper-containers itDelight-custom-slider">
+        <div class="swiper-wrapper">
+            {% block element_image_slider_alignment %}
+            {% set myVal = 0 %}
+            {% for image in element.config.sliderItems.value %}
+            <div class="swiper-slide">
+                <div class="image-slider-content"
+                                           data-base-slider-container="true">
+                    <img src="{{ image.mediaUrl }}" alt="test">
+                        <div class="content">
+                            {{ image.content|raw }}
+                        </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endblock %}
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+{% endblock %}
