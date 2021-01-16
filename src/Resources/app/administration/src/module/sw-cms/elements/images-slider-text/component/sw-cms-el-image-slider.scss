@@ -451,4 +451,32 @@
             }
         }
     }
+    h2 {
+        text-align: center;
+        color: #3A3E4A;
+        font-size: 35px;
+    }
+    .category-goups {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        .category-element {
+            padding: 20px 40px;
+            background: #fff;
+            margin-right: 20px;
+        }
+    }
+    .wrapper-image-text .sw-text-editor .sw-text-editor__content-editor h3 {
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        color: #879200;
+        font-weight: bold;
+        font-size: 30px;
+        text-transform: initial;
+        &:before {
+            display: none;
+        }
+    }
 }
