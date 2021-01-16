@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([["slider-text"],{xZkx:function(i,n){new Swiper(".swiper-container",{direction:"vertical",pagination:{el:".swiper-pagination",clickable:!0}})}},[["xZkx","runtime"]]]);
