@@ -14,11 +14,6 @@
             "name": "ItDelight"
         }
     ],
-    "require": {
-        "shopware/core": "^6.1",
-        "shopware/storefront": "^6.1",
-        "shopware/platform": "^6.1"
-    },
     "extra": {
         "shopware-plugin-class": "ITDelight\\SliderText\\SliderText",
         "plugin-icon": "src/Resources/config/plugin.png",

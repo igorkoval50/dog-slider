@@ -30,6 +30,7 @@
         "blocks": {
             "delightBlock": {
                 "label": "Image slider custom",
+                "labels": "Slider image content",
                 "label-images": "Image slider text category"
             }
         }

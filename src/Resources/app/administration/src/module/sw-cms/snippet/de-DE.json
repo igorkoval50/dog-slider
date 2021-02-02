@@ -30,6 +30,7 @@
         "blocks": {
             "delightBlock": {
                 "label": "Bildschieberegler benutzerdefiniert",
+                "labels": "Inhalt des Schiebereglerbildes",
                 "label-images": "Bildschieberegler-Textkategorie"
             }
         }

@@ -2,11 +2,11 @@ import './component';
 import './preview';
 
 Shopware.Service('cmsService').registerCmsBlock({
-    name: 'slider-image-text',
+    name: 'sliders-images-text',
     label: 'sw-cms.blocks.delightBlock.labels',
-    category: 'image',
-    component: 'sw-cms-block-slider-image-text',
-    previewComponent: 'sw-cms-preview-slider-image-text',
+    category: 'text-image',
+    component: 'sw-cms-block-sliders-images-text',
+    previewComponent: 'sw-cms-preview-sliders-images-text',
     defaultConfig: {
         marginBottom: '20px',
         marginTop: '20px',
@@ -15,7 +15,7 @@ Shopware.Service('cmsService').registerCmsBlock({
         sizingMode: 'boxed'
     },
     slots: {
-        imageSliderTxt: 'image-slider-text'
+        imageSlidersTxt: 'images-sliders-text'
     }
 });
 
