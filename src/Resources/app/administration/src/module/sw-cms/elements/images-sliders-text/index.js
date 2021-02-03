@@ -5,9 +5,9 @@ import './preview';
 Shopware.Service('cmsService').registerCmsElement({
     name: 'images-sliders-text',
     label: 'sw-cms.blocks.delightBlock.label',
-    component: 'sw-cms-el-images-slider-text',
-    configComponent: 'sw-cms-el-config-images-slider-text',
-    previewComponent: 'sw-cms-el-preview-images-slider-text',
+    component: 'sw-cms-el-images-sliders-text',
+    configComponent: 'sw-cms-el-config-images-sliders-text',
+    previewComponent: 'sw-cms-el-preview-images-sliders-text',
     defaultConfig: {
         sliderItems: {
             source: 'static',

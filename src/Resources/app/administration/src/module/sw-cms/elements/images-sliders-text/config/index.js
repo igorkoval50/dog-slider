@@ -5,7 +5,7 @@ const { Component, Mixin } = Shopware;
 const { cloneDeep } = Shopware.Utils.object;
 const Criteria = Shopware.Data.Criteria;
 
-Component.register('sw-cms-el-config-images-slider-text', {
+Component.register('sw-cms-el-config-images-sliders-text', {
     template,
 
     mixins: [

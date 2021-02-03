@@ -480,3 +480,17 @@
         }
     }
 }
+
+.sw-cms-block-sliders-images-text {
+    .sw-text-editor__content-editor {
+        max-width: 560px;
+        right: 16%;
+        position: absolute;
+        text-align: left;
+        top: 90px;
+        h2 {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+    }
+}
